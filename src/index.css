@@ -22,6 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    overflow: hidden;
 }
 
 .calculator {
@@ -36,13 +37,13 @@ body {
     padding: 10px;
     text-align: right;
     color: var(--light);
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 200;
     min-height: 15vh;
 }
 
 .display span {
-    font-size: 20px;
+    font-size: 15px;
     color: #888;
 }
 
@@ -51,7 +52,7 @@ button {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     cursor: pointer;
     background-color: inherit;
